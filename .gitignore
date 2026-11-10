@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Environments and secrets
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local database and vector data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/querymind_chroma/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
